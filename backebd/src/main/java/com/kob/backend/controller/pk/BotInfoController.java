@@ -1,4 +1,4 @@
-package com.kob.backebd.controller.pk;
+package com.kob.backend.controller.pk;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -12,8 +12,10 @@ public class BotInfoController {
     @RequestMapping("/getbotinfo")
     public Map<String, String> getBotInfo() {
         Map<String,String > test=new HashMap<>();
-        test.put("张三","两岁");
-        test.put("李四","三岁");
+        test.put("name","张三");
+        test.put("rating","8000");
+
         return test;
     }
+
 }
