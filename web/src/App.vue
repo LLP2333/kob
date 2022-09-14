@@ -34,4 +34,8 @@ import {ref} from 'vue';
 </script>
 
 <style>
+    body{
+        background-image:url(@/assets/background.png);
+        background-size: cover;
+    }
 </style>
